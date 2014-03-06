@@ -2,81 +2,67 @@
 
 ####Spring 2013
 
-**Instructor:** Frederick Maier (fmaier@uga.edu)
-**Office:** Boyd 216; Hours: TBA
-**Lecture Times and Locations:**
-10:10-11:00
-9:30-10:45
-Mon
-Tues & Thurs
-Boyd GSRC, Rm 208
-Boyd GSRC, Rm 208
-Brief Description:
+**Instructor:** Frederick Maier (fmaier@uga.edu)  
+**Office:** Boyd 216; **Hours:** TBA  
+**Lecture Times and Locations:**  
+10:10-11:00 Mon Boyd GSRC, Rm 208
+9:30-10:45 Tues & Thurs Boyd GSRC, Rm 208
+
+
+####Brief Description:
 This is a first course on the theory of computing. Fundamental Topics include finite automata, regular
 expressions and languages, context-free grammars and languages, push-down automata, pumping lemmas
 for regular languages and for context-free grammars, the Chomsky hierarchy of language classes, Turing
 machines and computability, undecidability of the halting problem, reducibilities among decision problems
 and languages, time complexity, and NP-completeness and tractability.
-Prerequisites: CSCI/MATH 2610: Discrete Mathematics; or CSCI 2611: Discrete Mathematics for Engi-
+
+**Prerequisites:** CSCI/MATH 2610: Discrete Mathematics; or CSCI 2611: Discrete Mathematics for Engi-
 neers.
-Course Objectives: This course introduces fundamental models relevant to most areas of computer science.
+
+**Course Objectives:** This course introduces fundamental models relevant to most areas of computer science.
 At the end of the semester, all students will be able to do the following:
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-Given an NFA M , create a DFA or a regular expression that accepts L(M ).
-Given a regular language L, create an NFA that accepts L.
-Use pumping lemmas to prove a language is not regular or not context-free.
-Given a description of a context-free language L, develop a context-free grammar (CFG) G such that
+1. Given an NFA M , create a DFA or a regular expression that accepts L(M ).
+2. Given a regular language L, create an NFA that accepts L.
+3. Use pumping lemmas to prove a language is not regular or not context-free.
+4. Given a description of a context-free language L, develop a context-free grammar (CFG) G such that
 L(G) = L.
-Convert a CFG into Chomsky Normal Form (CNF).
-Given a context-free grammar G in CNF and a string w, use the CYK algorithm to determine if G
+5. Convert a CFG into Chomsky Normal Form (CNF).
+6. Given a context-free grammar G in CNF and a string w, use the CYK algorithm to determine if G
 generates w.
-Given an context-free grammar G, create a push-down automaton (PDA) that accepts L(G).
-Identify if a given language is regular, context-free but not regular, or neither.
-Given a language L, create a Turing machine L that accepts L.
-Convert between different variations of the Turing machine model (e.g., multi-tape to single tape).
-Create a Turing machine that performs a function.
-Define decidabilty and demonstrate that a language is decidable.
-Reduce one problem to another one.
-Use reductions to prove a problem is undecidable.
-Define P, NP and NP-complete.
-Show a problem is in P and determine its computational complexity.
-Write pseudo-code describing a non-deterministic Turing machines steps to solve a problem.
-Prove a problem is NP-complete.
-Required Text:
+7. Given an context-free grammar G, create a push-down automaton (PDA) that accepts L(G).
+8. Identify if a given language is regular, context-free but not regular, or neither.
+9. Given a language L, create a Turing machine L that accepts L.
+10. Convert between different variations of the Turing machine model (e.g., multi-tape to single tape).
+11. Create a Turing machine that performs a function.
+12. Define decidabilty and demonstrate that a language is decidable.
+13. Reduce one problem to another one.
+14. Use reductions to prove a problem is undecidable.
+15. Define P, NP and NP-complete.
+16. Show a problem is in P and determine its computational complexity.
+17. Write pseudo-code describing a non-deterministic Turing machines steps to solve a problem.
+18. Prove a problem is NP-complete.
+
+####Required Text:
 Michael Sipser. Introduction to the Theory of Computation (2nd Edition). ISBN-13: 978-0534950972
-Course Website: Course materials—including grades, reading assignments, and homework—will be posted
+
+**Course Website:** Course materials—including grades, reading assignments, and homework—will be posted
 to the course’s eLearning Commons (eLC) website: https://www.elc.uga.edu/. Secondary websites might
 also be used.
-Lectures: Lectures will cover material from Chapters 1–7 of the textbook, excluding Chapter 6. Only
-1
+
+**Lectures:** Lectures will cover material from Chapters 1–7 of the textbook, excluding Chapter 6. Only
 limited material from certain chapters will be covered. Lecture readings will be assigned beforehand, and
 students should finish these before class begins. Quizzes and other activities will take place during lecture
 periods.
-Homework: Throughout the semester, homework dealing with material covered in the lectures will be
+
+**Homework:** Throughout the semester, homework dealing with material covered in the lectures will be
 assigned. On the due date of the assignment, students must typeset and submit printed copies of their
 solutions during the lecture period. Late submissions will be accepted up to 24 hours after the due date.
 However, 15 points will be deducted from the assignment’s grade. After 24 hours, the assignment will be
-given a grade of 0.
+given a grade of 0.  
 At the end of the semester, the lowest homework grade will not be used when calculating students’ final HW
 score (that is, the lowest score will be dropped).
-Exams: There will be 3 in-class exams and a separate final exam. Tentative dates for each are given below.
+
+**Exams:** There will be 3 in-class exams and a separate final exam. Tentative dates for each are given below.
 In-class Exam 1:
 In-class Exam 2:
 In-class Exam 3:
