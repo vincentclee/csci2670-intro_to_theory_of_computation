@@ -1,0 +1,41 @@
+6. Write a Java program implementing the Turing machine M2 shown in Fig. 3.8 of the text. You may assume that M2 is a  fixed part of the program and that the input to the program is a string of 0s (read from the console). The output should be the sequence of configurations that the machine enters (similar to the sequence shown on page 144). Submit the program's output for the input 00 and 0000 with your printed homework. Your completed source file should be submitted to eLC.
+
+To compile the program:
+javac turing.java
+To run the program:
+java turing 0000
+
+For input: 00
+q100
+#q20
+#xq3#
+#q5x#
+q5#x#
+#q2x#
+#xq2#
+#x#qaccept
+
+For input: 0000
+q10000
+#q2000
+#xq300
+#x0q40
+#x0xq3#
+#x0q5x#
+#xq50x#
+#q5x0x#
+q5#x0x#
+#q2x0x#
+#xq20x#
+#xxq3x#
+#xxxq3#
+#xxq5x#
+#xq5xx#
+#q5xxx#
+q5#xxx#
+#q2xxx#
+#xq2xx#
+#xxq2x#
+#xxxq2#
+#xxx#qaccept
+
